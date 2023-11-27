@@ -425,7 +425,7 @@ a {
     margin-right: 120px;
 }
 
-.social-title {
+.footer-part-title {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -468,4 +468,59 @@ a {
 .page-footer .social-link:hover,
 .page-footer .social-link:focus {
     background-color: #31d0aa;
+}
+
+.footer-second-part {
+    margin-right: 80px;
+}
+
+.input-subscribe-email {
+    width: 264px;
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    background-color: #2E2F42;
+    color: #FFFFFF;
+}
+
+.input-subscribe-email::placeholder {
+    color: #FFFFFF;
+}
+
+.button-subscribe {
+    padding: 8px 24px;
+    color: #FFF;
+    text-align: center;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.button-subscribe:hover,
+.button-subscribe:focus {
+    background-color: #404BBF;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 24px;
+}
+
+.icon-send {
+    fill: #FFFFFF;
 }
