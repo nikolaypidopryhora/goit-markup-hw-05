@@ -620,6 +620,7 @@ a {
 }
 
 .modal-form-textarea-wrapper {
+    position: relative;
     margin-bottom: 16px;
 }
 
@@ -691,7 +692,7 @@ a {
 }
 
 .checkbox-label {
-    color: var(--LIGHT-SLATE, #8E8F99);
+    color: #8E8F99;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
